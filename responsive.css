@@ -75,7 +75,14 @@
         margin-right: 10px;
     }
 
-
+    .header-menubar li ul {
+        left: 110px !important;
+        transition: none;
+        z-index: 999;
+        box-shadow: inherit;
+    
+        width: 180px;
+    }
    
 
 }
@@ -96,7 +103,7 @@
 
 
     .header-menubar li ul {
-        left: 110px;
+        left: 110px !important;
         transition: none;
         z-index: 999;
         box-shadow: inherit;
